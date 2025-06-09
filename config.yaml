@@ -34,7 +34,7 @@ ngsParalog: True
 # need to download ngsParalog separately
 # git clone https://github.com/tplinderoth/ngsParalog
 # cd ngsParalog; make
-ngsParalog_path: "/home/cpayne/programs/ngsParalog" 
+ngsParalog_path: "/home/clazari/ngsParalog" 
 # list of bam files
 bam_list: inputs/bam_list.txt
 # list of chromosomes and lengths in descending order
