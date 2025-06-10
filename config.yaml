@@ -10,7 +10,7 @@ bcf: inputs/all.bcf
 
 ### basic popgen filters
 ## will be passed into bcftools view -i
-bcftools_filters: 'FILTER="PASS" & MAF>0.05 & F_MISSING<0.1 & FMT/DP>3 & FMT/DP<20 & AVG(FMT/DP)>3 & AVG(FMT/DP)<20 & QUAL>30' 
+bcftools_filters: 'FILTER="PASS" & MAF>0.05 & F_MISSING<0.6 & FMT/DP>0.5 & FMT/DP<10 & AVG(FMT/DP)>0.5 & AVG(FMT/DP)<10 & QUAL>30' 
 
 
 ### GenMap
