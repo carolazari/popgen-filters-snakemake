@@ -2,7 +2,7 @@
 #### INPUTS ####
 
 # path to unfiltered bcf
-bcf: inputs/all_CAxNZ.bcf
+bcf: inputs/all_CAxArg_V2.bcf
 
 
 #### FILTERS TO APPLY ####
@@ -36,9 +36,9 @@ ngsParalog: True
 # cd ngsParalog; make
 ngsParalog_path: "/home/clazari/ngsParalog" 
 # list of bam files
-bam_list: inputs/bam_list_CAxNZ.txt
+bam_list: inputs/bam_list_CAxArg.txt
 # list of chromosomes and lengths in descending order
-chrom_lengths_list: inputs/chrom_lengths.sorted.txt
+chrom_lengths_list: inputs/chrom_lengths_v2.sorted.txt
 
 
 ### PCAone
