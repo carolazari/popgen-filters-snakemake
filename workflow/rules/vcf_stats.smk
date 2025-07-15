@@ -16,7 +16,7 @@ rule pre_random_subsample_bcf:
     conda:
         "../envs/vcftools.yaml",
     params:
-        nsnps=100000,
+        nsnps=100000000,
     shell:
 #        "bcftools view -v snps -m 2 -M 2 {input} | vcfrandomsample -r 0.01 > {output} "  
         "bcftools view --header-only {input} > {output} ; "
